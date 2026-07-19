@@ -14,6 +14,9 @@ export default function Experience() {
             <div style={{ gridColumn: 'span 3', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               <h3 style={{ fontSize: '1rem', fontWeight: 500 }}>
                 {exp.role} <span style={{ color: 'var(--bg-oat-300)' }}>|</span> {exp.company}
+                {exp.location ? (
+                  <span style={{ color: 'var(--text-light)', fontWeight: 300 }}>, {exp.location}</span>
+                ) : null}
               </h3>
               <ul style={{ paddingLeft: '1.25rem', color: 'var(--text-muted)', fontSize: '0.875rem', fontWeight: 300, display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
                 {exp.description.map((bullet, i) => (

@@ -29,7 +29,7 @@ export const portfolioData = {
         {
             role: "Junior Software Engineer",
             company: "Relevantz",
-            location: "Virudhunagar",
+            location: "Virudhunagar, Tamil Nadu",
             period: "Jul 2024 – Sep 2024",
             description: [
                 "Developed and integrated responsive ReactJS interfaces with .NET Core backend services.",
@@ -39,7 +39,7 @@ export const portfolioData = {
         {
             role: "Trainee Software Engineer",
             company: "Relevantz",
-            location: "Virudhunagar",
+            location: "Virudhunagar, Tamil Nadu",
             period: "Jul 2023 – Jun 2024",
             description: [
                 "Learned and practiced core technologies including ReactJS, .NET Core, Entity Framework, and XUnit testing.",
@@ -95,10 +95,17 @@ export const portfolioData = {
     ],
     achievements: [
         {
+            title: "Foundational C# with Microsoft Certification",
+            category: "Certifications",
+            description: "Earned the Foundational C# with Microsoft Certification Exam, demonstrating proficiency in C# fundamentals including data types, arrays, conditional branching, looping structures, and clean coding practices.",
+            credentialUrl: "https://www.freecodecamp.org/certification/kathirvelsiva/foundational-c-sharp-with-microsoft"
+        },
+        {
             title: "3rd Place - RDevX 2025 ",
             category: "The Voice Behind the Code",
             description: "Code Guardians – Embedding security into every stage of development to build trust and resilience. Recognized for innovative approaches to integrating security practices within the software development lifecycle, enhancing application robustness and safeguarding against vulnerabilities.", credentialUrl: "https://www.linkedin.com/posts/relevantz_rdevx-voicetrack-innovationatwork-ugcPost-7387519211297939457-QFPM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD4pjDgBoh5SgY32EkmLZ4_eI9wzxXgzsA0"
-        }, {
+        },
+        {
             title: "HackerRank Software Engineer Intern Certificate",
             category: "Role Validation",
             description: "Validated full-stack competencies across core engineering principles, problem-solving paradigms, and foundational software design workflows.",

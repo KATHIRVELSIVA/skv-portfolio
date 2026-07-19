@@ -184,7 +184,7 @@ export default function Projects() {
       </div>
 
       <div style={{ borderTop: '1px solid var(--bg-oat-200)', paddingTop: '3rem' }}>
-        <h2 className="section-title">Distinctions & Recognition</h2>
+        <h2 className="section-title">Achievements & Recognition</h2>
         
         {/* Carousel Container */}
         <div style={{ position: 'relative' }}>

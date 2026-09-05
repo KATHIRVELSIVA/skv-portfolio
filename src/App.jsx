@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { ThemeProvider } from './context/ThemeContext';
 import Navigation from './components/Navigation';
 import ScrollToTop from './components/ScrollToTop';

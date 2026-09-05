@@ -1,7 +1,7 @@
 export const portfolioData = {
     profile: {
         name: "Kathirvel",
-        title: "Junior Software Engineer",
+        title: "Software Engineer",
         company: "Relevantz",
         companyUrl: "https://relevantz.com/",
         bio: "Full-Stack Engineer specializing in the .NET ecosystem and React. Dedicated to writing domain-driven, maintainable code, developing robust microservices, and integrating automated workflows.",
@@ -16,14 +16,25 @@ export const portfolioData = {
     ],
     experience: [
         {
+            role: "Software Engineer",
+            company: "Relevantz",
+            location: "Chennai, Tamil Nadu",
+            period: "Aug 2026 – Present",
+            description: [
+                "Lead end-to-end development of microservices and full-stack feature modules across .NET Core and React frameworks.",
+                "Drive system design optimizations, code quality standards, and technical refinements for client-facing software products.",
+                "Mentor team members on clean architecture principles and maintainable API engineering strategies."
+            ]
+        },
+        {
             role: "Junior Software Engineer",
             company: "Relevantz",
             location: "Chennai, Tamil Nadu",
-            period: "Oct 2024 – Present",
+            period: "Oct 2024 – Jul 2026",
             description: [
-                "Architect and maintain server-side application logic using .NET Core and enterprise clean architecture frameworks.",
-                "Design and optimize high-throughput Web APIs and database layers to support client scaling requirements.",
-                "Collaborate actively in cross-functional agile teams to deliver modular full-stack solutions."
+                "Architected and maintained server-side application logic using .NET Core and enterprise clean architecture frameworks.",
+                "Designed and optimized high-throughput Web APIs and database layers to support client scaling requirements.",
+                "Collaborated actively in cross-functional agile teams to deliver modular full-stack solutions."
             ]
         },
         {
@@ -60,7 +71,7 @@ export const portfolioData = {
         {
             title: "Ecommerce Admin System",
             role: "Backend Developer",
-            duration: "2 Years",
+            duration: "2 Years 2 months",
             description: "Engineered scalable background logic and robust API endpoints for the sales and client modules. Reduced endpoint query latency and streamlined intake management processing.",
             tags: [".NET Core", "C#", "Web API", "SQL"],
             links: {}
@@ -103,7 +114,8 @@ export const portfolioData = {
         {
             title: "3rd Place - RDevX 2025 ",
             category: "The Voice Behind the Code",
-            description: "Code Guardians – Embedding security into every stage of development to build trust and resilience. Recognized for innovative approaches to integrating security practices within the software development lifecycle, enhancing application robustness and safeguarding against vulnerabilities.", credentialUrl: "https://www.linkedin.com/posts/relevantz_rdevx-voicetrack-innovationatwork-ugcPost-7387519211297939457-QFPM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD4pjDgBoh5SgY32EkmLZ4_eI9wzxXgzsA0"
+            description: "Code Guardians – Embedding security into every stage of development to build trust and resilience. Recognized for innovative approaches to integrating security practices within the software development lifecycle, enhancing application robustness and safeguarding against vulnerabilities.", 
+            credentialUrl: "https://www.linkedin.com/posts/relevantz_rdevx-voicetrack-innovationatwork-ugcPost-7387519211297939457-QFPM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD4pjDgBoh5SgY32EkmLZ4_eI9wzxXgzsA0"
         },
         {
             title: "HackerRank Software Engineer Intern Certificate",

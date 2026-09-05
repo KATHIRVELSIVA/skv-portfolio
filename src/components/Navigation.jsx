@@ -1,5 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useTheme } from '../context/ThemeContext';
+
+const navItems = [
+  { id: 'hero', label: 'Home' },
+  { id: 'skills', label: 'Skills' },
+  { id: 'experience', label: 'Experience' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'contact', label: 'Contact' }
+];
 
 export default function Navigation() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -7,14 +15,6 @@ export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const { isDark, toggleTheme } = useTheme();
-
-  const navItems = [
-    { id: 'hero', label: 'Home' },
-    { id: 'skills', label: 'Skills' },
-    { id: 'experience', label: 'Experience' },
-    { id: 'projects', label: 'Projects' },
-    { id: 'contact', label: 'Contact' }
-  ];
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
